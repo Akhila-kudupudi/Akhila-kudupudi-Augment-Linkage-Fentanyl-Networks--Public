@@ -85,7 +85,7 @@ The following datasets were used **privately** during development:
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 - Sai Surya Gadiraju  
 - Sai Charan Somineni  
@@ -97,7 +97,7 @@ The following datasets were used **privately** during development:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.  
 See the `LICENSE` file for usage guidelines.
