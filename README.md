@@ -1,51 +1,45 @@
 # Augment-Linkage-Fentanyl-Networks--Public
-A public demo of graph modeling techniques using Neo4j, AWS Neptune, and Tableau to explore inter-organizational linkages—based on my DAEN 690 capstone project. This version contains no real data and is designed for educational showcase only.
 
+Welcome to the GitHub repository for our **DAEN 690 Capstone Project**:  
+**Augment Linkage: Evidence and Exploration**
 
-This repository demonstrates graph-based modeling and querying approaches for analyzing organizational linkages using tools like Neo4j, AWS Neptune, and Tableau. It serves as a public showcase of my capstone project, without sharing any data or sensitive content.
-
-> ⚠️ Note: No real or synthetic datasets are included in this repository. Code and structure are for conceptual demonstration only.
-
----
-
-## 🔍 Objective
-
-To highlight how graph techniques can be used to uncover relationships between entities based on communication methods like:
-
-- Email
-- Phone
-- Chat handles (e.g., WhatsApp, Telegram)
-- Payment identifiers
+This project investigates **fentanyl trafficking networks** by uncovering complex corporate linkages using interactive dashboards, graph databases, and curated data modeling.
 
 ---
 
-## 🛠 Technologies Featured
+## 🚨 Disclaimer
 
-- **AWS Neptune** with Gremlin
-- **Neo4j** with Cypher
-- **Tableau** dashboards
-- **Python** (networkx for local modeling)
+⚠️ **Sensitive datasets are not included in this public repository** due to privacy and institutional restrictions.  
+The repository includes schema diagrams, code samples, and usage instructions that demonstrate our graph modeling, data visualization, and dashboarding pipelines.
 
 ---
 
-## 📂 What’s Inside
+## Project Overview
 
-- `notebooks/graph_modeling_template.ipynb`: Template for building a simple entity graph (nodes & edges)
-- `neo4j/sample_cypher_queries.txt`: Sample Cypher queries to explore graph relationships
-- `neptune/sample_gremlin_queries.txt`: Common traversal examples for AWS Neptune
-- `tableau/dashboard_mockup.png`: Visual sketch of a dashboard built in Tableau (for illustration only)
+We explored hidden **communication** and **payment-based connections** among companies using:
 
----
-
-## 💡 Sample Graph Schema
-
-- **Company** nodes connected by shared **Attribute Values** (e.g., email, phone)
-- Relationship types:
-  - `:USES_EMAIL`, `:USES_PHONE`, `:USES_CHAT`, `:USES_PAYMENT`
-- Traversals to find common contacts or indirect associations
+- Shared identifiers (email, phone, chat)
+- Normalized and curated datasets (not publicly shared)
+- Multi-platform visualizations via **Tableau**, **Neo4j**, and **AWS Neptune**
 
 ---
 
-## 📜 License
+## Project Structure
 
-This repository is open-sourced under the **MIT License**.
+| Branch                      | Description                                                           |
+|----------------------------|------------------------------------------------------------------------|
+| `tableau-Interactive-graphs` | Tree graph dashboard (structure + dummy config)                       |
+| `Neo4j-Graph-Implementation` | Sample Cypher queries and schema for relationship exploration         |
+| `AWS-Neptune`                | Code and Gremlin scripts for graph ingestion and query patterns        |
+
+---
+
+## Visual Models (No Real Data Included)
+
+### Tableau
+
+- Tree-based visualization model using Tableau Extension Gallery
+- Interactive filters and mock tooltips
+
+### Neo4j Graph Schema
+
