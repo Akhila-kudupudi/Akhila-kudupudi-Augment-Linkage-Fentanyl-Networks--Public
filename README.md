@@ -43,3 +43,63 @@ We explored hidden **communication** and **payment-based connections** among com
 
 ### Neo4j Graph Schema
 
+(BaseConsolidation)
+├─[:HAS_METHOD]→ (LinkageMethod)
+├─[:HAS_LINKAGE]→ (LinkageValue)
+└─[:HAS_ASSOCIATED_COMPANY]→ (AssociatedCompany)
+
+
+Includes example Cypher queries for:
+- Identifying top connected nodes
+- Tracing indirect relationships
+
+### AWS Neptune (Gremlin)
+
+- Includes notebooks with:
+  - Graph modeling patterns
+  - Sample ingestion logic
+  - Gremlin traversal patterns
+
+---
+
+## How to Use
+
+| Platform | Instructions |
+|----------|--------------|
+| Tableau  | Load `.twbx`, enable Tree Extension (demo structure only) |
+| Neo4j    | Launch local server, import schema and test queries        |
+| Neptune  | Use Gremlin notebooks with placeholder data or local mocks |
+
+---
+
+## Dataset Notice
+
+The following datasets were used **privately** during development:
+
+- Curated Excel sheets with communication identifiers
+- Normalized linkage files with corporate metadata
+- Derived evidence scores and metadata
+
+**These are not included** in this public repository.
+
+
+---
+
+## 👥 Contributors
+
+- Sai Surya Gadiraju  
+- Sai Charan Somineni  
+- Pooja Manjunatha Swamy  
+- Jerry Vishal Joseph  
+- Shreya Reddy Jukanna  
+- **Akhila Kudupudi**  
+- Sai Sameer Sri Vastav Pillutla
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for usage guidelines.
+
+
